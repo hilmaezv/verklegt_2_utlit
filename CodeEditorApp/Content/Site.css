@@ -46,8 +46,8 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image:url('../images/bakgrunnurtre.jpg');
-    opacity: 0.2;
+    background-image:url('../images/bakgrunnurtre.jpg'); 
+    opacity: 0.2; 
 }
 
 #info-front {
