@@ -22,3 +22,35 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.navbar-inverse {
+    background: none;
+    border: none;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    background-image: url("../images/bakgrunnurtre.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#blur {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url('../images/bakgrunnurtre.jpg');
+    opacity: 0.2;
+}
+
+#info-front {
+  float:left;
+  margin-top: 50px;
+}
