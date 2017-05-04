@@ -1,4 +1,13 @@
-﻿body {
+﻿
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -26,7 +35,9 @@ textarea {
 .navbar-inverse {
     background: none;
     border: none;
+    height:10%;
 }
+
 body, html {
     height: 100%;
     margin: 0;
@@ -40,14 +51,14 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
- 
+
 #blur {
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image:url('../images/bakgrunnurtre.jpg'); 
-    opacity: 0.2; 
+    background-image:url('../images/bakgrunnurtre.jpg');
+    opacity: 0.2;
 }
 
 #info-front {
@@ -55,11 +66,6 @@ body, html {
   margin-top: 50px;
 }
 
-.navbar-brand {
-  padding: 0px;
-}
-.navbar-brand>img {
-  height: 100%;
-  padding: 15px;
-  width: auto;
+a > img {
+    height:10%;
 }
